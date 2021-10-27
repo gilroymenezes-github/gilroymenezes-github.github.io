@@ -1,10 +1,64 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h1 {
-    color: blueviolet;
+.header {
+    background: #f44;
+    height: 40px;
 }
 
-.foo {
-    color: blue;
+.footer {
+    position: fixed;
+    bottom:0;
+    height: 40px;
+    width: 100%;
+    background: #f44;
+}
+
+.main {
+    height: 100%;
+}
+
+.content {
+    background-color: lightgrey;
+    bottom: 40px;
+    top:0px;
+    right:0px;
+}
+
+
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    left: 0;
+}
+
+.sidebar-nav {
+    list-style: none;
+}
+
+.sidebar-nav p {
+    text-indent: 60px;
+    line-height: 40px;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    /* color: #999999; */
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #f44;
+    /* background: rgba(255,255,255,0.2); */
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    color: #f44;
+    text-decoration: none;
 }
