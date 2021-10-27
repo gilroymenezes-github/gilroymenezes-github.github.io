@@ -1,6 +1,7 @@
 html, body {
     overflow: hidden;
     height: 100%;
+    /* background-color: lightgrey; */
 }
 
 .container-fluid {
@@ -28,17 +29,17 @@ html, body {
     width: 100%;
     height: 64px;
     color: #fff;
-    background-color: #f44;
+    /* background-color: #f44; */
 }
 
+.sidebar {
+    margin-top:20px;
+    margin-left:5px;
+}
 .content {
-    background-color: lightgrey;
+    background-color: #fff;
     height: 100vh;
-}
-
-.border {
-    border: 2px solid #f44!important;
-    
+    margin: 20px;
 }
 
 .navbar {
