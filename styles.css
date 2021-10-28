@@ -13,10 +13,6 @@ html, body {
     background-color: #cce;
 }
 
-.row {
-    margin-left: 0;
-}
-
 .header {
     left:0;
     width: 100%;
@@ -34,14 +30,10 @@ html, body {
     background-color: #cce;
 }
 
-.sidebar {
-    margin-top:20px;
-    margin-left:5px;
-}
-
 .content {
     height: 100vh;
-    margin: 25px;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 
 
