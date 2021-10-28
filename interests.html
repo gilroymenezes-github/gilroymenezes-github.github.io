@@ -10,13 +10,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+
+    <link id="dark-theme-style" rel="stylesheet" />
+
 </head>
 
 <body>
 
     <div class="container-fluid">
         <div class="header">
-        <nav class="navbar navbar-expand navbar-light bg-light">
+        <nav class="navbar navbar-expand navbar-transparent">
             <div class="navbar-brand" href="#">Kilowott</div>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-5 mr-auto">
@@ -28,6 +31,8 @@
                     </li>
                 </ul>
             </div>
+            <a class="btn btn-outline-secondary mr-1" id="theme-toggler" 
+                onclick="toggleTheme()">Switch Theme</a>
             <span class="navbar-text">
                 <button class="btn btn-primary">Login</button>
             </span>
@@ -52,19 +57,21 @@
             <div class="col-md-9">
                 <div>
                     <div class="content">
-                        <span>Interests Content</span>
+                        <span>Home Content</span>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="footer bg-light">
+        <div class="footer">
             <div class="footer-text">
                 <span>Copyright</span>
             </div>
         </div>
 
     </div>
+
+    <script src="index.js"></script>
    
 </body>
 
