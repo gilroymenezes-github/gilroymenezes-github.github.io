@@ -1,0 +1,23 @@
+{
+  "name": "gilroymenezes-github.github.io",
+  "version": "1.0.0",
+  "description": "github pages site @ [https://gilroymenezes-github.github.io]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json-server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilroymenezes-github/gilroymenezes-github.github.io.git"
+  },
+  "author": "gilroy menezes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gilroymenezes-github/gilroymenezes-github.github.io/issues"
+  },
+  "homepage": "https://github.com/gilroymenezes-github/gilroymenezes-github.github.io#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

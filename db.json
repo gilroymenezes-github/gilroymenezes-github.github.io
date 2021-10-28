@@ -1,0 +1,19 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "name": "HTML",
+            "level": 5
+        },
+        {
+            "id": 2,
+            "name": "CSS",
+            "level": 4
+        },
+        {
+            "id": 3,
+            "name": "JS",
+            "level": 2
+        }
+    ]
+}
