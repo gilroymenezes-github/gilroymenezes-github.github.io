@@ -1,7 +1,7 @@
 html, body {
     overflow: hidden;
     height: 100%;
-    background-color: #eef;
+    background-color: #334;
 }
 
 .container-fluid {
@@ -38,6 +38,7 @@ html, body {
 .content {
     height: 100vh;
     margin: 25px;
+    color: red;
 }
 
 
